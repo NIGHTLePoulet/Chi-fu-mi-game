@@ -1,0 +1,111 @@
+*,  
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "ZCOOL XiaoWei", sans-serif;   
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #F6F2EF;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 6fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+p, a {
+    font-size: 1.4rem ;
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+a:hover {
+    color: #C8102E;
+}
+
+.header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 73vh;
+}
+
+.title-separator {
+    height: 100% ;
+    background-color: #000;
+    width: 1px;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.header h1 {
+    font-family: "Noto Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+h1 {
+    writing-mode: vertical-lr;
+}
+
+.english-p, .more-info {
+    margin-top: 2.5rem;
+}
+
+.wiki-link {
+    font-family: "Noto Sans SC", sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.footer {
+    width: 100%;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+.footer-separator {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+
+.footer-content {
+    width: 25%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    color: #F6F2EF;
+    margin-left: 0.6rem;
+    cursor: pointer;
+    border: none;
+    background-color: #000;
+    border-radius: 0.4rem;
+    width: 2.3rem;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
