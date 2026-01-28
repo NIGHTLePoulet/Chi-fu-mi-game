@@ -1,0 +1,57 @@
+body {
+    background: #F6F2EF;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    padding: 1.6rem;
+}
+
+.game-header {
+    grid-column: 1 / 3;
+    display: flex;  
+    align-items: center;
+    font-size: 4rem;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center
+}
+
+.header-left h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.header-left img {
+    width: 2.8rem;
+    margin-left: 4.8rem;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right p {
+    font-size: 1.7rem;
+    text-align: end;
+    margin-right: 3rem;
+}
+
+.header-right img {
+    width: 3rem;
+    margin-right: 1.5rem;
+}
+
+.header-separator {
+    margin-top: 1.6rem;
+    width: 100%;
+    height: 1px;
+    background-color: #E5E1DC;
+    grid-column: 1 / -1;
+}

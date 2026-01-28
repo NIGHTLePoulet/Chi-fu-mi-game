@@ -1,0 +1,17 @@
+<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_62_162" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="52" height="52">
+<circle cx="26" cy="26" r="26" transform="rotate(-90 26 26)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_62_162)">
+<rect x="2.27299e-06" y="59" width="66" height="16" transform="rotate(-90 2.27299e-06 59)" fill="black"/>
+<rect x="18" y="59" width="66" height="2" transform="rotate(-90 18 59)" fill="black"/>
+<rect x="22" y="59" width="66" height="2" transform="rotate(-90 22 59)" fill="black"/>
+<rect x="26" y="59" width="66" height="2" transform="rotate(-90 26 59)" fill="black"/>
+<rect x="30" y="59" width="66" height="2" transform="rotate(-90 30 59)" fill="black"/>
+<rect x="34" y="59" width="66" height="2" transform="rotate(-90 34 59)" fill="black"/>
+<rect x="38" y="59" width="66" height="2" transform="rotate(-90 38 59)" fill="black"/>
+<rect x="42" y="59" width="66" height="2" transform="rotate(-90 42 59)" fill="black"/>
+<rect x="46" y="59" width="66" height="2" transform="rotate(-90 46 59)" fill="black"/>
+<rect x="50" y="59" width="66" height="2" transform="rotate(-90 50 59)" fill="black"/>
+</g>
+</svg>
