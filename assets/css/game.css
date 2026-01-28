@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Press+Start+2P&family=ZCOOL+XiaoWei&display=swap');
+
 body {
     background: #F6F2EF;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 1fr .6rem 4fr .5fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
     padding: 1.6rem;
@@ -48,10 +50,64 @@ body {
     margin-right: 1.5rem;
 }
 
-.header-separator {
-    margin-top: 1.6rem;
+.header-separator { 
     width: 100%;
     height: 1px;
     background-color: #E5E1DC;
     grid-column: 1 / -1;
+    grid-row: 2 / 3;
+}
+
+.game-main {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player-side {
+    width: 50%;
+}
+
+.player-side h2{
+    font-size: 3rem;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.player-choice__container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2rem;
+    height: 35%;
+}
+
+.btn-choice {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-choice img {
+    width: 7rem;
+}
+
+.player-choice__placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+}
+
+.player-choice__placeholder  p {
+    color: rgb(204, 200, 200);
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+.fist-placeholder {
+    width: 9rem;
+}
+
+.ai-side {
+    width: 50%;
 }
