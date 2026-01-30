@@ -19,12 +19,12 @@
             <img src="../assets/images/gameIcon.svg" alt="Logo of the game">
         </div>
     </header>
-    <div class="header-separator"></div>
+    <div class="separator header-separator"></div>
     <main class="game-main">
         <div class="player-side">
             <h2>You</h2>
             <div class="player-choice__placeholder">
-                <img class="fist-placeholder" src="../assets/images/gameIcon/Shape.svg">
+                <img class="fist-placeholder" src="../assets/images/gameIcon/fist-placeholder.svg">
                 <p>Choose your action</p>
             </div>
             <div class="player-choice__container">
@@ -42,14 +42,36 @@
             </div>
         </div>
 
-        <div class="game-separator"></div>
+        <div class="game-separator__container">
+            <span class="game-separator"></span>
+        </div>
 
         <div class="ai-side">
+            <h2>AI</h2>
+            <div class="player-choice__placeholder">
+                <img class="fist-placeholder" src="../assets/images/gameIcon/fist-placeholder.svg">
+                <p>Choose your action</p>
+            </div>
+            <div class="player-choice__container">
+                <button class="btn-choice">
+                    <img src="../assets/images/gameIcon/fist.svg">
+                </button>
+
+                <button class="btn-choice">
+                    <img src="../assets/images/gameIcon/hand.svg">
+                </button>
+
+                <button class="btn-choice">
+                    <img src="../assets/images/gameIcon/scissors.svg">
+                </button>
+            </div>
         </div>
     </main>
-
+    <div class="separator footer-separator"></div>
     <footer class="game-footer">
-
+        <p class="rules-p">Rules: A player who decides to play rock will beat another player who has chosen scissors ("rock crushes scissors" or "breaks scissors" or sometimes "blunts scissors"), 
+            but will lose to one who has played paper ("paper covers rock"); a play of paper will lose to a play of scissors ("scissors cuts paper"). If both players choose the same shape, 
+            the game is tied and is usually immediately replayed to break the tie.</p>
     </footer>
 </body>
 </html>
