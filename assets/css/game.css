@@ -102,11 +102,12 @@ body {
     height: 50%;
 }
 
-.player-choice__placeholder  p {
+.placeholder-p {
     color: rgb(204, 200, 200);
     margin-top: 1rem;
     font-size: 1.6rem;
 }
+
 .fist-placeholder {
     width: 9rem;
 }
@@ -137,5 +138,22 @@ body {
 }
 
 .rules-p {
+    margin-top: 1rem;
     font-size: 0.85rem;
+}
+
+.winner {
+    color: #00A86B;
+}
+
+.loser {
+    color: #C8102E;
+}
+
+.equality {
+    color: black;
+}
+
+.winner, .loser, .equality {
+    font-size: 3rem;
 }
